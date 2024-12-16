@@ -54,7 +54,7 @@ Simulates 5 philosophers with:
 Use the following commands for cleanup:
 
 - `make clean`: Remove object files.
-- `make fclean`: Remove object files and the compiled library.
+- `make fclean`: Remove object files and the executable.
 - `make re`: Rebuild the library from scratch.
 
 
