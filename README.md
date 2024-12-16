@@ -71,7 +71,7 @@ Each state change is logged in the following format:
 - `X`: Philosopher number (1 to `number_of_philosophers`).
 
 
-##Timing Accuracy
+## Timing Accuracy
 
 The standard usleep function has limited accuracy due to system scheduling and potential delays under high system load. To address this limitation, I implemented a custom timing mechanism that ensures significantly more precise delays for philosopher actions. This improvement ensures better simulation consistency and adherence to specified timing constraints, regardless of system conditions. Program is still subject to error from gettimeofday function.
 
