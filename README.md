@@ -43,7 +43,7 @@ Run the program with the following arguments:
 
 ### Example
 ```bash
-./philo 5 800 200 150
+./philosopher 5 800 200 150
 ```
 Simulates 5 philosophers with:
 - 800 ms time to die.
